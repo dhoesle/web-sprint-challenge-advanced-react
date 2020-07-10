@@ -6,6 +6,13 @@ import CheckoutForm from "./CheckoutForm";
 
 test("form header renders", () => {
     render(<CheckoutForm />)
+
 });
 
-test("form shows success message on submit with form details", () => {});
+test("form shows success message on submit with form details", () => {
+    render(<CheckoutForm />)
+
+    const firstNameInput = screen.getByLabelText(/first name/i)
+    // const lastNameInput = screen.getByLabelText(/last name/i)
+
+});
