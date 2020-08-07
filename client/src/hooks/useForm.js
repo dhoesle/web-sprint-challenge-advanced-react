@@ -23,13 +23,13 @@ export const useForm = (key) => {
         });
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setShowSuccessMessage(true);
-    };
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     setShowSuccessMessage(true);
+    // };
 
 
-    return [values, handleChanges, handleSubmit, setShowSuccessMessage, showSuccessMessage]
+    return [values, handleChanges, setShowSuccessMessage, showSuccessMessage]
 }
 
 
