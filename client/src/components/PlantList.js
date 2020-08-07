@@ -37,7 +37,7 @@ export default class PlantList extends Component {
         <input 
           type='text'
           className='input'
-          placeholder='search...'
+          placeholder='Filter Plants Here...'
           value={this.state.search}
           onChange={this.handleChange.bind(this)}
           />
